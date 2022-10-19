@@ -32,7 +32,7 @@ function generatePrompt(prompt, poemStyle) {
   }
 
   if(poemStyle == "Haiku"){
-    var text = '>Angles\nAura of angels\nVenus sews seeds of sunrise\nOld as yesterday\n\n>River\nSlow moving river\nFlash of iridescent blue\nA kingfisher strikes\n\n>Wedding\nWedding ritual\nA boy draws new branches to\nThe family tree\n\n>' +  cleanPrompt;
+    var text = 'Dex is a poet known for writing 5-7-5 syllables haikus. The following is an example of a haiku Dex would write about ' +  cleanPrompt + ":";
     console.log("a haiku was written");
     return text;
   }
